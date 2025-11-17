@@ -9,7 +9,7 @@ int main(void) {
     while (1) {
         // Turn LED ON
         PORTB |= (1 << PORTB5);
-        _delay_ms(500);
+        _delay_ms(2000);
 
         // Turn LED OFF
         PORTB &= ~(1 << PORTB5);
