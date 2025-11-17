@@ -1,4 +1,4 @@
-usefull commands for setting up 
+useful commands for setting up 
 ----------------------------------------------------------------
 using usbasb programmer 
 
@@ -13,7 +13,7 @@ search on google and easy find it
 sudo usermod -aG dialout $USER
 
 
-complie and flash
+compile and flash
 ----------------------------------------------------------------
 avr-gcc -mmcu=atmega328p -DF_CPU=16000000UL -Os -o blink.elf blink.c
 avr-objcopy -O ihex blink.elf blink.hex
